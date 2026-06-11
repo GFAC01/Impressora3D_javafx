@@ -1,0 +1,156 @@
+/* ===== CONFIGURAÇÕES GLOBAIS ===== */
+.root {
+    -fx-background-color: rgb(245, 245, 250);
+    -fx-background: rgb(245, 245, 250);
+}
+
+.scroll-pane {
+    -fx-background-color: rgb(245, 245, 250);
+    -fx-background: rgb(245, 245, 250);
+}
+
+/* ===== VBOX ===== */
+.vbox {
+    -fx-padding: 15px;
+    -fx-spacing: 15px;
+}
+
+/* ===== BOX DA IMAGEM ===== */
+.box-imagem {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #2e7d32;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.placeholder-imagem {
+    -fx-text-fill: #aaaaaa;
+    -fx-font-size: 14px;
+    -fx-text-alignment: center;
+}
+
+/* ===== LABELS ===== */
+.label {
+    -fx-text-fill: #1a1a2e;
+    -fx-text-alignment: justify;
+}
+
+.label-modelo {
+    -fx-text-alignment: left;
+    -fx-font-family: "Consolas", monospace;
+    -fx-font-size: 13px;
+    -fx-line-spacing: 5px;
+    -fx-text-fill: #1a1a2e;
+}
+
+.label-descricao {
+    -fx-text-alignment: justify;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 12px;
+    -fx-line-spacing: 4px;
+    -fx-text-fill: #1a1a2e;
+    /* sem altura fixa — exibe o texto completo */
+}
+
+/* ===== BOX DE RESULTADOS ===== */
+.box-resultados {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #2e7d32;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(46,125,50,0.12), 8, 0, 0, 2);
+}
+
+/* texto interno do painel de resultados */
+.label-calculos {
+    -fx-font-family: "Consolas", monospace;
+    -fx-font-size: 13px;
+    -fx-line-spacing: 5px;
+    -fx-text-fill: #1a1a2e;
+}
+
+/* ===== COMBO BOX ===== */
+.combo-box {
+    -fx-pref-width: 400px;
+    -fx-max-width: 400px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1a1a2e;
+    -fx-border-color: #2e7d32;
+    -fx-border-radius: 5px;
+}
+
+/* ===== TEXT FIELD ===== */
+.text-field {
+    -fx-pref-width: 400px;
+    -fx-max-width: 400px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1a1a2e;
+    -fx-border-color: #2e7d32;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px;
+}
+
+/* ===== TEXT AREA (descrição do projeto) ===== */
+.text-area {
+    -fx-pref-width: 400px;
+    -fx-max-width: 400px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1a1a2e;
+    -fx-border-color: #2e7d32;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 12px;
+}
+
+/* ===== BOTÃO CALCULAR ===== */
+.button {
+    -fx-pref-width: 185px;
+    -fx-background-color: #2e7d32;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #43a047;
+}
+
+/* ===== BOTÃO SECUNDÁRIO (Limpar) ===== */
+.button-secondary {
+    -fx-pref-width: 185px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #2e7d32;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-border-color: #2e7d32;
+    -fx-border-radius: 8px;
+    -fx-border-width: 2px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+.button-secondary:hover {
+    -fx-background-color: #e8f5e9;
+}
+
+/* ===== RADIO BUTTON ===== */
+.radio-button {
+    -fx-text-fill: #1a1a2e;
+    -fx-font-size: 12px;
+}
+
+.radio-button .radio {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.radio-button:selected .dot {
+    -fx-background-color: #2e7d32;
+}
